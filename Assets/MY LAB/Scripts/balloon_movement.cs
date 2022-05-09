@@ -91,7 +91,7 @@ public class balloon_movement : MonoBehaviour
     }
 	private void growBalloon(){
 		sizeCount++;
-		myBalloon.transform.localScale += myBalloon.transform.localScale * growRate * Time.deltaTime;
+		myBalloon.transform.localScale += myBalloon.transform.localScale * growRate;
 		
 	}
 	IEnumerator WaitForLoad() {

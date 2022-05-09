@@ -16,10 +16,16 @@ EditorBuildSettings:
     guid: 22995ea6452de844f8867a8e479131fd
   - enabled: 1
     path: Assets/MY LAB/Scenes/Level 2.unity
-    guid: fd65f0cfdd03d96448ff0e1001546c52
+    guid: 4ece9c000a0671541a8b96f876dbd412
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/MY LAB/Scenes/Level 3.unity
-    guid: edc5ebda008a30e42b88986d5871e292
+    guid: a1933592140b09a498e618b43dffbde8
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/MY LAB/Scenes/HighScore.unity
     guid: 8aa9e5c5e5c5d1344ae0536f4f0c1fec
