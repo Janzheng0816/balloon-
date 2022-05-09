@@ -22,7 +22,7 @@ public class balloon_movement : MonoBehaviour
 	
     // Start is called before the first frame update
     void Start()
-    {
+    {	
         myBalloon = GetComponent<Rigidbody2D>();
 		myBalloon.velocity = new Vector2 (-speed, Random.Range(yMin,yMax));
 		if (audio == null)
@@ -71,6 +71,7 @@ public class balloon_movement : MonoBehaviour
 			Destroy(gameObject);
 			//StartCoroutine(WaitForLoad());
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+			
 		}
 		if (SceneManager.GetActiveScene().buildIndex ==3)
 		{
